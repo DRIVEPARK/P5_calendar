@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right bottom, #1612ff 0%, #006eff 70%);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+#city_graph {
+    width: 56.75%;
+    height: 65.75%;
+    position: absolute;
+    bottom: 0;
+    right: -0.02%;
+    z-index: 10;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+}
+
+#anime {
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 220;
+    color: #fff;
+    animation: dissapear 1.25s ease-in 2.5s;
+    -webkit-animation: dissapear 1.25s ease-in 2.5s;
+}
+
+#to_do {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    opacity: 0.95;
+    z-index: 200;
+}
+
+#phone {
+    background-color: #000;
+    width: 1000px;
+    height: 110%;
+    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    position: absolute;
+    z-index: 100;
+}
+
+#white_border {
+    width: 1000px;
+    height: 100%;
+    background-color: #FFF;
+    position: relative;
+    margin-bottom: 30px
+}
+
+#black_border {
+    width: 950px;
+    height: 100%;
+    background-color: #000;
+    position: relative;
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+#to_do_list {
+    width: 900px;
+    background-color: red;
+    height: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 25px;
+
+}
+
+#sophie_white{
+    width: 84px;
+    height: 84px;
+    clip-path: polygon(0 0, 71% 28%, 98% 94%, 10% 99%);
+    background-color: #FFF;
+    position: relative;
+    bottom: 72px;
+    left: 47px;
+}
+
+#sophie_black{
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(0 0, 78% 24%, 98% 94%, 10% 99%);
+    background-color: #000;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+#sophie_png{
+    position: relative;
+    height: 80px;
+    width: 110px;
+    bottom: 160px;
+    left: 40px;
+}
+
+#hat {
+    position: relative;
+    z-index: 1;
+    left: calc(50% - 125px);
+    top: calc(40% - 125px);
+    width: 250px;
+    height: 250px;
+}
+
+#take_your_time {
+    font-family: "P5hatty";
+    src: url(fonts/p5hatty.ttf);
+    position: absolute;
+    font-size: 10rem;
+    left: calc(50% - 300px);
+    top: 50%;
+    margin-top: 30px;
+}
+
+#footer_one {
+    bottom: 2vh;
+    padding-bottom: 20px;
+}
+
+#y_axis_one{
+    animation: y-axis-one 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-one 8.8s ease-in-out infinite 2.5s;
+    width: 20%;
+    height: 37%;
+    position: absolute;
+    bottom: -4%;
+    left: -5%;
+    z-index: -4;
+}
+
+#cloud_one {
+    animation: x-axis-one 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: x-axis-one 8.8s ease-in-out infinite 2.5s;
+}
+
+#y_axis_two{
+    width: 9%;
+    height: 25%;
+    position: absolute;
+    bottom: -2.75%;
+    left: 12.8%;
+    z-index: -3;
+    animation: y-axis-two 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-two 8.8s ease-in-out infinite 2.5s;
+}
+
+#cloud_two {
+    animation: x-axis-two 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: x-axis-two 8.8s ease-in-out infinite 2.5s;
+}
+
+#y_axis_three{
+    position: absolute;
+    bottom: 11%;
+    left: 17%;
+    width: 11%;
+    height: 11%;
+    z-index: -2;
+    animation: y-axis-three 8.8s linear infinite 2.5s;
+    -webkit-animation: y-axis-three 8.8s linear infinite 2.5s;
+}
+
+#cloud_three {
+    animation: x-axis-three 8.8s linear infinite 2.5s;
+    -webkit-animation: x-axis-three 8.8s linear infinite 2.5s;
+}
+
+#cloud_four {
+    animation:x-axis-four 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: x-axis-four 8.8s ease-in-out infinite 2.5s;
+}
+
+#y_axis_four{
+    position: absolute;
+    bottom: 12%;
+    left: 25%;
+    width: 14%;
+    height: 15%;
+    z-index: 2;
+    animation:y-axis-four 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-four 8.8s ease-in-out infinite 2.5s;
+}
+
+#cloud_five {
+    animation:x-axis-five 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: x-axis-five 8.8s ease-in-out infinite 2.5s;
+}
+
+#y_axis_five{
+    position: absolute;
+    bottom: 3%;
+    left: 34%;  
+    z-index: 3;
+    animation:y-axis-five 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-five 8.8s ease-in-out infinite 2.5s;
+}
+
+#cloud_six {
+    animation:x-axis-six 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: x-axis-six 8.8s ease-in-out infinite 2.5s;
+}
+
+#y_axis_six{
+    position: absolute;
+    left: 19%;
+    bottom: 5%;
+    z-index: 4;
+    width: 8%;
+    height: 7%;
+    animation:y-axis-six 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-six 8.8s ease-in-out infinite 2.5s;
+}
+
+#cloud_seven {
+    animation:x-axis-seven 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: x-axis-seven 8.8s ease-in-out infinite 2.5s;
+}
+
+#y_axis_seven{
+    position: absolute;
+    z-index: 4;
+    bottom: -2.25%;
+    left: 26.5%;
+    width: 18%;
+    height: 18%;
+    animation:y-axis-seven 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-seven 8.8s ease-in-out infinite 2.5s;
+}
+
+#cloud_eight {
+    animation:x-axis-eight 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: x-axis-eight 8.8s ease-in-out infinite 2.5s;
+}
+
+#y_axis_eight{
+    position: absolute;
+    right: 17%;
+    top: 45%;
+    animation:y-axis-eight 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-eight 8.8s ease-in-out infinite 2.5s;
+}
+
+#cloud_nine {
+    animation:x-axis-nine 8.8s linear infinite 2.5s;
+    -webkit-animation: x-axis-nine 8.8s linear infinite 2.5s;
+}
+
+#y_axis_nine{
+    position: absolute;
+    right: 12%;
+    top: 38.75%;
+    animation:y-axis-nine 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-nine 8.8s ease-in-out infinite 2.5s;
+}
+
+#cloud_nine_second_half {
+    animation:x-axis-nine-second-half 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: x-axis-nine-second-half 8.8s ease-in-out infinite 2.5s;
+}
+
+#y_axis_nine_second_half{
+    position: absolute;
+    right: 8.5%;
+    top: 35%;
+    animation:y-axis-nine-second-half 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-nine-second-half 8.8s ease-in-out infinite 2.5s;
+}
+
+#cloud_ten {
+    animation:x-axis-ten 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: x-axis-ten 8.8s ease-in-out infinite 2.5s;
+}
+
+#y_axis_ten{
+    position: absolute;
+    right: -3.75%;
+    top: 19%;
+    z-index: 2;
+    animation:y-axis-ten 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-ten 8.8s ease-in-out infinite 2.5s;
+}
+
+#cloud_eleven {
+    animation:x-axis-eleven 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: x-axis-eleven 8.8s ease-in-out infinite 2.5s;
+}
+
+
+#y_axis_eleven{
+    position: absolute;
+    right: -4.75%;
+    top: 5.5%;
+    z-index: 1;
+    animation:y-axis-eleven 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-eleven 8.8s ease-in-out infinite 2.5s;
+}
+
+#cloud_twelve {
+    animation:x-axis-twelve 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: x-axis-twelve 8.8s ease-in-out infinite 2.5s;
+}
+
+#y_axis_twelve{
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation:y-axis-twelve 8.8s ease-in-out infinite 2.5s;
+    -webkit-animation: y-axis-twelve 8.8s ease-in-out infinite 2.5s;
+}
+
+.filler {
+    position: absolute;
+    width: 30%;
+    z-index: -100;
+    height: 8%;
+    left: 20%;
+    bottom: 0;
+    background-color: white;
+}
+
+.filler_2 {
+    position: absolute;
+    width: 12%;
+    z-index: 1;
+    height: 17%;
+    left: 20%;
+    bottom: 0;
+    background-color: white;
+}
+
+.filler_3{
+    position: absolute;
+    width: 5%;
+    z-index: -1;
+    height: 50%;
+    right: 0;
+    top: 0;
+    background-color: white;
+}
+
+
+.days {
+    width: 215px;
+    height: 75px;
+}
+
+.foot {
+    font-family: "P5hatty", sans-serif;
+    src: url(fonts/p5hatty.ttf);
+    height: 2vh;
+    width: 100%;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.month_number {
+    color: #FFF;
+    font-weight: 900;
+    font-size: 10rem;
+}
+
+.number {
+    color: #FFF;
+    font-family: "P5hatty", sans-serif;
+    src: url(fonts/p5hatty.ttf);
+    font-weight: 900;
+    font-size: 10rem;
+}
+
+.message {
+    height: 150px;
+    position: relative;
+    left: 150px;
+    bottom: 250px;
+}
+
+.message_black_two {
+    background-color: #000;
+    width: 300px;
+    height: 70px;
+    clip-path: polygon(100% 45%, 88% 95%, 23% 100%, 17% 76%, 14% 97%, 6% 66%, 5% 75%, 0% 56%, 5% 58%, 8% 38%, 13% 52%, 17% 10%, 88% 0%);
+    position: relative;
+    left: 17px;
+    bottom: 95px;
+    cursor: default;
+    z-index: 101;
+    color: #fff;
+    font-family: "P5hatty", sans-serif;
+    src: url(fonts/p5hatty.ttf);
+}
+
+.message_white {
+    background-color: #FFF;
+    width: 320px;
+    height: 80px;
+    position: relative;
+    right: 335px;
+    top: 1px;
+    clip-path: polygon(100% 45%, 88% 95%, 24% 100%, 19% 80%, 16% 98%, 8% 69%, 7% 76%, 0% 50%, 6% 54%, 10% 33%, 14% 44%, 17% 10%, 88% 0%);
+    cursor: default;
+}
+
+.message_black_one {
+    background-color: #000;
+    width: 340px;
+    height: 100px;
+    clip-path: polygon(100% 45%, 88% 95%, 24% 100%, 20% 85%, 17.25% 99%, 9.5% 74%, 8.5% 80%, 0% 47.5%, 7% 49%, 11% 28%, 14.5% 36%, 17% 10%, 88% 0%);
+    position: relative;
+}
+
+.message_text {
+    background-color: #000;
+    color: #fff;
+    font-family: "P5hatty", sans-serif;
+    src: url(fonts/p5hatty.ttf);
+    width: 180px;
+    height: 50px;
+    position: relative;
+    bottom: 72px;
+    right: 215px;
+    z-index: 113;
+    resize: none;
+    font-size: 16px;
+}

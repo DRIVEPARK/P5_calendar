@@ -1,0 +1,316 @@
+.date {
+    position: absolute;
+    z-index: 20;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+}
+
+.tens {
+    grid-column: 1;
+    grid-row: 1;
+    height: 155px;
+    width: 115px;
+}
+
+.units {
+    grid-column: 2;
+    grid-row: 1;
+    height: 155px;
+    width: 115px;
+}
+
+.days {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.date1 {
+    width: 240px;
+    height: 200px;
+    bottom: -2%;
+    left: 18%;
+    transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    animation: date-1 0.45s linear 7.25s;
+    -webkit-animation: date-1 0.45s linear 7.25s;
+}
+
+#ten1 {
+    position: relative;
+    left: 25px;
+    top: 7.5px;
+}
+
+#unit1 {
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+    width: 102%;
+    height: 103%;
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+
+#day1 {
+    position: relative;
+    bottom: 30px;
+    left: 60px;
+}
+
+.date2 {
+    width: 260px;
+    height: 260px;
+    bottom: 17.5%;
+    left: 24%;
+    transform: rotate(-55deg);
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    -o-transform: rotate(-55deg);
+}
+
+#ten2 {
+    position: relative;
+    width: 108%;
+    height: 107%;
+    top: 10px;
+    right: 50px;
+    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+}
+
+#unit2 {
+    position: relative;
+    width: 115%;
+    height: 115%;
+    bottom: 20px;
+    right: 70px;
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+
+#day2 {
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+    width: 110%;
+    height: 85%;
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+
+.date3 {
+    width: 360px;
+    height: 360px;
+    bottom: 42%;
+    left: 27%;
+    transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+}
+
+#ten3 {
+    width: 105%;
+    height: 100%;
+    position: relative;
+    right: 40px;
+    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+}
+
+#unit3 {
+    width: 115%;
+    height: 107%;
+    position: relative;
+    right: 60px;
+    bottom: 15px;
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+}
+
+#day3 {
+    width: 110%;
+    height: 100%;
+    position: relative;
+    bottom: 40px;
+    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+}
+
+.date4 {
+    width: 280px;
+    height: 280px;
+    bottom: 66%;
+    left: 46%;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+}
+
+#ten4 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 40px;
+    bottom: 5px;
+}
+
+#unit4 {
+    width: 105%;
+    height: 102%;
+    position: relative;
+    right: 70px;
+    bottom: 20px;
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+}
+
+#day4 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 45px;
+    right: 20px;
+    transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+}
+
+.date5 {
+    width: 240px;
+    height: 240px;
+    bottom: 72%;
+    left: 61.5%;
+    transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+}
+
+#ten5 {
+    position: relative;
+    width: 80%;
+    height: 72%;
+    top: 15px;
+}
+
+#unit5 {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    right: 42px;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+}
+
+#day5 {
+    position: relative;
+    width: 70%;
+    height: 95%;
+    left: 30px;
+    bottom: 50px;
+}
+
+.date6 {
+    width: 240px;
+    height: 240px;
+    top: 0;
+    left: 74%;
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+}
+
+#ten6 {
+    position: relative;
+    width: 85%;
+    height: 80%;
+}
+
+#unit6 {
+    position: relative;
+    width: 85%;
+    height: 85%;
+    right: 35px;
+    bottom: 15px;
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+
+#day6 {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    bottom: 55px;
+    left: 52px;
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+
+#y_axis_knife{
+    width: 220px;
+    height: 400px;
+    position: absolute;
+    top:-50%;
+    left: 25%;
+    z-index: 100;
+    animation:y-axis-knife 0.45s linear 7.25s;
+    -webkit-animation: y-axis-knife 0.45s linear 7.25s;
+}
+
+#knife{
+    animation:x-axis-knife 0.45s linear 7.25s;
+    -webkit-animation: x-axis-knife 0.45s linear 7.25s;
+}
+
+/* 
+
+                    
+
+*/

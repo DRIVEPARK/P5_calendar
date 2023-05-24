@@ -1,0 +1,287 @@
+@keyframes dissapear {
+    from {
+        opacity: 1;
+        display: block;
+    }
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
+
+/* clouds animations */
+
+@keyframes x-axis-one {
+
+      40%{
+        transform: translateX(20%);
+      }
+
+}
+
+@keyframes y-axis-one{
+
+    30%{
+        transform: translateY(-7.5%);
+    }
+
+    50%{
+        transform: translateY(-12%);
+    }
+    
+
+
+  }
+
+@keyframes x-axis-two {
+
+    30%{
+      transform: translateX(30%);
+    }
+    50%{
+        transform: translateX(35%);
+    }
+
+}
+
+@keyframes y-axis-two{
+
+  10%{
+      transform: translateY(10%);
+  }
+  50%{
+      transform: translateY(12%);
+  }
+  75%{
+    transform: translateY(-5%);
+  }
+
+}
+
+@keyframes x-axis-three {
+
+    50%{
+        transform: translateX(3.5%);
+    }
+
+}
+
+@keyframes y-axis-three{
+
+  50%{
+      transform: translateY(6%);
+  }
+
+}
+
+
+@keyframes x-axis-four {
+
+    50%{
+        transform: translateX(-3.5%);
+    }
+
+}
+
+@keyframes y-axis-four{
+
+    50%{
+        transform: translateY(32%);
+    }
+
+}
+
+@keyframes x-axis-five {
+
+    50%{
+        transform: translateX(-8%);
+    }
+
+}
+
+@keyframes y-axis-five{
+
+    50%{
+        transform: translateY(-60%);
+    }
+
+}
+
+@keyframes x-axis-six {
+
+
+    50%{
+        transform: translateX(50%);
+    }
+  
+
+}
+
+@keyframes y-axis-six{
+
+    25%{
+        transform: translateY(-75%);
+    }
+    55%{
+        transform:translateY(-90%) ;
+    }
+}
+
+@keyframes x-axis-seven {
+
+
+    50%{
+        transform: translateX(23%);
+    }
+
+  
+
+}
+
+@keyframes y-axis-seven{
+
+    20%{
+        transform: translateY(-29%);
+    }
+    50%{
+        transform:translateY(-35%) ;
+    }
+}
+
+@keyframes x-axis-eight {
+
+
+    50%{
+        transform: translateX(-20%);
+    }
+    65%{
+        transform: translateX(-22%);
+    }
+
+}
+
+@keyframes y-axis-eight{
+
+
+    50%{
+        transform:translateY(-47%) ;
+    }
+}
+
+@keyframes x-axis-nine {
+
+    50%{
+        transform: translateX(-5%);
+    }
+
+}
+
+@keyframes y-axis-nine{
+
+    50%{
+        transform:translateY(-30%) ;
+    }
+}
+
+@keyframes x-axis-nine-second-half {
+
+    50%{
+        transform: translateX(-5%);
+    }
+
+}
+
+@keyframes y-axis-nine-second-half{
+
+    50%{
+        transform:translateY(-23%) ;
+    }
+}
+
+@keyframes x-axis-ten { 
+
+    50%{
+        transform: translateX(-25%);
+    }
+
+}
+
+@keyframes y-axis-ten{
+
+    40%{
+        transform:translateY(-8%) ;
+    }
+    60%{
+        transform: translateY(-15%);
+    }
+}
+
+@keyframes x-axis-eleven { 
+
+    50%{
+        transform: translateX(-37%);
+    }
+
+}
+
+@keyframes y-axis-eleven{
+
+    40%{
+        transform:translateY(-25%) ;
+    }
+    60%{
+        transform: translateY(-35%);
+    }
+}
+
+@keyframes x-axis-twelve { 
+
+    50%{
+        transform: translateX(-50%);
+    }
+
+}
+
+@keyframes y-axis-twelve{
+
+    40%{
+        transform:translateY(-25%) ;
+    }
+    60%{
+        transform: translateY(-35%);
+    }
+}
+
+/* Days nad weeks animations */
+
+@keyframes x-axis-knife {
+    0%{
+        transform: translateX(1800px);
+    }
+
+    45%{
+        transform: translateX(0px);
+    }
+    50% { transform: translate(1px, 1px) rotate(0deg); }
+    55% { transform: translate(-1px, -2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 0px) rotate(1deg); }
+    65% { transform: translate(3px, 2px) rotate(0deg); }
+    70% { transform: translate(1px, -1px) rotate(1deg); }
+    75% { transform: translate(-1px, 2px) rotate(-1deg); }
+    80% { transform: translate(-3px, 1px) rotate(0deg); }
+    85% { transform: translate(3px, 1px) rotate(-1deg); }
+    90% { transform: translate(-1px, -1px) rotate(1deg); }
+    95% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes y-axis-knife {
+    0%{
+        top: -50%;
+    }
+    40%{
+        top: 0;
+    }
+}
+
+
