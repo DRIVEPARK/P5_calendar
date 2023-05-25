@@ -174,9 +174,11 @@ function numbersOfDays() {
         day++;
     }
 }
-*/
 
-document.getElementsByTagName("textarea").innerHTML = "Przykładowy tekst ishbdbzxucvguyhavcuschjvszducvs";
+
+document.getElementsByTagName("textarea").innerHTML = "Przykładowy tekst";
+
+*/
 
 numbersOfDays();
 dayOfWeek();
